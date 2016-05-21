@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA50019D1CF0D89E00EDA954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50019C1CF0D89E00EDA954 /* AppDelegate.swift */; };
+		AA50019F1CF0D89E00EDA954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50019E1CF0D89E00EDA954 /* ViewController.swift */; };
+		AA5001A21CF0D89E00EDA954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5001A01CF0D89E00EDA954 /* Main.storyboard */; };
+		AA5001A41CF0D89E00EDA954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5001A31CF0D89E00EDA954 /* Assets.xcassets */; };
+		AA5001A71CF0D89E00EDA954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5001A51CF0D89E00EDA954 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA5001991CF0D89E00EDA954 /* SoundMemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundMemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50019C1CF0D89E00EDA954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA50019E1CF0D89E00EDA954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA5001A11CF0D89E00EDA954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5001A31CF0D89E00EDA954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA5001A61CF0D89E00EDA954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA5001A81CF0D89E00EDA954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5001961CF0D89E00EDA954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5001901CF0D89E00EDA954 = {
+			isa = PBXGroup;
+			children = (
+				AA50019B1CF0D89E00EDA954 /* SoundMemoryGame */,
+				AA50019A1CF0D89E00EDA954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA50019A1CF0D89E00EDA954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5001991CF0D89E00EDA954 /* SoundMemoryGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA50019B1CF0D89E00EDA954 /* SoundMemoryGame */ = {
+			isa = PBXGroup;
+			children = (
+				AA50019C1CF0D89E00EDA954 /* AppDelegate.swift */,
+				AA50019E1CF0D89E00EDA954 /* ViewController.swift */,
+				AA5001A01CF0D89E00EDA954 /* Main.storyboard */,
+				AA5001A31CF0D89E00EDA954 /* Assets.xcassets */,
+				AA5001A51CF0D89E00EDA954 /* LaunchScreen.storyboard */,
+				AA5001A81CF0D89E00EDA954 /* Info.plist */,
+			);
+			path = SoundMemoryGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5001981CF0D89E00EDA954 /* SoundMemoryGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5001AB1CF0D89E00EDA954 /* Build configuration list for PBXNativeTarget "SoundMemoryGame" */;
+			buildPhases = (
+				AA5001951CF0D89E00EDA954 /* Sources */,
+				AA5001961CF0D89E00EDA954 /* Frameworks */,
+				AA5001971CF0D89E00EDA954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundMemoryGame;
+			productName = SoundMemoryGame;
+			productReference = AA5001991CF0D89E00EDA954 /* SoundMemoryGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5001911CF0D89E00EDA954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HenceApps;
+				TargetAttributes = {
+					AA5001981CF0D89E00EDA954 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA5001941CF0D89E00EDA954 /* Build configuration list for PBXProject "SoundMemoryGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5001901CF0D89E00EDA954;
+			productRefGroup = AA50019A1CF0D89E00EDA954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5001981CF0D89E00EDA954 /* SoundMemoryGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5001971CF0D89E00EDA954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5001A71CF0D89E00EDA954 /* LaunchScreen.storyboard in Resources */,
+				AA5001A41CF0D89E00EDA954 /* Assets.xcassets in Resources */,
+				AA5001A21CF0D89E00EDA954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5001951CF0D89E00EDA954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50019F1CF0D89E00EDA954 /* ViewController.swift in Sources */,
+				AA50019D1CF0D89E00EDA954 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA5001A01CF0D89E00EDA954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5001A11CF0D89E00EDA954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA5001A51CF0D89E00EDA954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5001A61CF0D89E00EDA954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5001A91CF0D89E00EDA954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA5001AA1CF0D89E00EDA954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5001AC1CF0D89E00EDA954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundMemoryGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henceapps.SoundMemoryGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5001AD1CF0D89E00EDA954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundMemoryGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henceapps.SoundMemoryGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5001941CF0D89E00EDA954 /* Build configuration list for PBXProject "SoundMemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5001A91CF0D89E00EDA954 /* Debug */,
+				AA5001AA1CF0D89E00EDA954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5001AB1CF0D89E00EDA954 /* Build configuration list for PBXNativeTarget "SoundMemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5001AC1CF0D89E00EDA954 /* Debug */,
+				AA5001AD1CF0D89E00EDA954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5001911CF0D89E00EDA954 /* Project object */;
+}
