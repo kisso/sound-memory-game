@@ -38,7 +38,11 @@
                                 <state key="normal" image="play"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-9C-oA0">
-                                <rect key="frame" x="263.5" y="39" width="73.5" height="31.5"/>
+                                <rect key="frame" x="225" y="28" width="150" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="5tG-AQ-aBg"/>
+                                    <constraint firstAttribute="height" constant="32" id="pTZ-GP-fG6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -46,7 +50,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="F5s-9C-oA0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="47T-jY-RCr"/>
+                            <constraint firstItem="F5s-9C-oA0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="47T-jY-RCr"/>
                             <constraint firstItem="MrB-ai-qGG" firstAttribute="leading" secondItem="DKR-Uv-XN4" secondAttribute="trailing" constant="-40" id="6Ev-h9-4z4"/>
                             <constraint firstItem="DKR-Uv-XN4" firstAttribute="top" secondItem="pz5-KX-WFy" secondAttribute="bottom" constant="-39" id="86p-mo-9l7"/>
                             <constraint firstItem="DKR-Uv-XN4" firstAttribute="top" secondItem="MrB-ai-qGG" secondAttribute="bottom" constant="-39" id="CEz-ZB-n3j"/>
@@ -60,6 +64,14 @@
                             <constraint firstItem="Tb6-3k-avr" firstAttribute="leading" secondItem="DKR-Uv-XN4" secondAttribute="trailing" constant="-40" id="xg7-sv-4fh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="levelLabel" destination="F5s-9C-oA0" id="des-tY-mcm"/>
+                        <outlet property="startGameButton" destination="DKR-Uv-XN4" id="pBn-l9-obN"/>
+                        <outletCollection property="soundButton" destination="pz5-KX-WFy" collectionClass="NSMutableArray" id="CoP-VG-QNM"/>
+                        <outletCollection property="soundButton" destination="MrB-ai-qGG" collectionClass="NSMutableArray" id="7LG-mw-gxi"/>
+                        <outletCollection property="soundButton" destination="Tb6-3k-avr" collectionClass="NSMutableArray" id="2ez-Eh-fvb"/>
+                        <outletCollection property="soundButton" destination="2Ib-8y-deT" collectionClass="NSMutableArray" id="Eyg-fZ-PeJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
