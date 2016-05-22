@@ -51,9 +51,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         do {
             
             try sound1Player = AVAudioPlayer(contentsOfURL: soundFileURL1)
+            sound1Player.prepareToPlay()
             try sound2Player = AVAudioPlayer(contentsOfURL: soundFileURL2)
+            sound2Player.prepareToPlay()
             try sound3Player = AVAudioPlayer(contentsOfURL: soundFileURL3)
+            sound3Player.prepareToPlay()
             try sound4Player = AVAudioPlayer(contentsOfURL: soundFileURL4)
+            sound4Player.prepareToPlay()
             
         } catch {
             
@@ -79,18 +83,22 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             
             switch button.tag {
             case 1:
+                stopSound()
                 sound1Player.play()
                 checkIfCorrect(1)
                 break
             case 2:
+                stopSound()
                 sound2Player.play()
                 checkIfCorrect(2)
                 break
             case 3:
+                stopSound()
                 sound3Player.play()
                 checkIfCorrect(3)
                 break
             case 4:
+                stopSound()
                 sound4Player.play()
                 checkIfCorrect(4)
                 break
@@ -99,6 +107,19 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             }
         }
         
+    }
+    
+    func stopSound() {
+        if sound1Player.playing || sound2Player.playing || sound3Player.playing || sound4Player.playing {
+            sound1Player.stop()
+            sound1Player.currentTime = 0
+            sound2Player.stop()
+            sound2Player.currentTime = 0
+            sound3Player.stop()
+            sound3Player.currentTime = 0
+            sound4Player.stop()
+            sound4Player.currentTime = 0
+        }
     }
     
     @IBAction func startGame(sender: AnyObject) {
@@ -129,7 +150,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
-        
+        resetButtonHighlights()
         if currentItem <= playList.count - 1 {
             playNextItem()
         } else {
@@ -176,22 +197,18 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         switch selectedItem {
         case 1:
             highlightButtonWithTag(1)
-            resetButtonHighlights()
             sound1Player.play()
             break
         case 2:
             highlightButtonWithTag(2)
-            resetButtonHighlights()
             sound2Player.play()
             break
         case 3:
             highlightButtonWithTag(3)
-            resetButtonHighlights()
             sound3Player.play()
             break
         case 4:
             highlightButtonWithTag(4)
-            resetButtonHighlights()
             sound4Player.play()
             break
         default:
